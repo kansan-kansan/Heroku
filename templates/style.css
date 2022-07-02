@@ -1,3 +1,15 @@
 .cont{
    color: red;
 }
+
+html{
+background-color: #eee1cf;
+color: navy;
+font-size: 100%;
+}
+
+
+
+aside{
+   width: 22%;/**/
+}
