@@ -15,6 +15,10 @@ def hello():  #関数名はなんでも良い
 def deliverables():
     return render_template('deliverables.html')
 
+@app.route("/hello")
+def hello_():
+    return render_template('hello.html')
+
 
 
 
