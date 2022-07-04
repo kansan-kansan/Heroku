@@ -19,7 +19,7 @@ def deliverables():
 def hello_():
     return render_template('hello.html')
 
-@app.route("/photp")
+@app.route("/photo")
 def photo():
     return render_template('photo.html')
 
