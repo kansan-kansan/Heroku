@@ -3,7 +3,7 @@
 from click import style
 from flask import Flask
 from flask import render_template
-app = Flask(__name__, static_folder='./')#アプリのインスタンス化
+app = Flask(__name__, static_folder='./templates')#アプリのインスタンス化
 
 
 @app.route("/") #URLを作っているイメージ
