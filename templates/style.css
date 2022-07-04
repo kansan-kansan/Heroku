@@ -1,6 +1,29 @@
-.del_body{
-   background: #0bd;
-}
+/*hello.html*/
 .hello_body{
-   background: #0bd;
+   background: rgb(255, 242, 172);
+}
+.header{
+   font-family: 'Splash', cursive;
+   font-family: 'Yellowtail', cursive;
+}
+
+
+
+
+/*deliverables.html*/
+.del_body{
+   background: rgb(255, 242, 172);
+}
+.del_first_letter{
+   font-family: 'Splash', cursive;
+   font-family: 'Yellowtail', cursive;    
+}
+.dev{
+   text-align: center;
+}
+.lug{
+   text-align: center;
+}
+.qua{
+   text-align: center;
 }
