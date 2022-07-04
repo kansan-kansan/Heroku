@@ -11,5 +11,12 @@ def hello():  #関数名はなんでも良い
     return render_template('hello.html')
     #city左側はhello.html内の変数
 
+@app.route("/deliverables")
+def deliverables():
+    return render_template('deliverables.html')
+
+
+
+
 if __name__=="__main__":
     app.run(debug=True)
