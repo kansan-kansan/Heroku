@@ -19,7 +19,9 @@ def deliverables():
 def hello_():
     return render_template('hello.html')
 
-
+@app.route("/photp")
+def photo():
+    return render_template('photo.html')
 
 
 if __name__=="__main__":
