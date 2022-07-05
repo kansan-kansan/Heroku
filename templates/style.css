@@ -1,12 +1,35 @@
 /*hello.html*/
 .hello_body{
    background: rgb(255, 242, 172);
+   text-align: center;
 }
 .header{
    font-family: 'Splash', cursive;
    font-family: 'Yellowtail', cursive;
 }
+.explain_title{      /*説明*/
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 10px;    
+    font-family: 'Caveat', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Shadows Into Light', cursive;
+}
+.explain{
+   padding: 10px;
+}
 
+.contact{/*コンタクト　SNS*/
+   font-size: x-large;
+   font-weight: bold;
+   margin-bottom: 10px;    
+   font-family: 'Caveat', cursive;
+   font-family: 'Kaushan Script', cursive;
+   font-family: 'Shadows Into Light', cursive;
+}
+.footer{    /*フッター*/
+   font-family: 'Shadows Into Light', cursive;
+}
 
 
 
@@ -14,16 +37,28 @@
 .del_body{
    background: rgb(255, 242, 172);
 }
+.del_heder_logo{  /*ヘッダーロゴ*/
+}
+
 .del_first_letter{
    font-family: 'Splash', cursive;
    font-family: 'Yellowtail', cursive;    
 }
 .dev{
+   font-family: 'Shadows Into Light', cursive;
    text-align: center;
 }
 .lug{
+   font-family: 'Shadows Into Light', cursive;
    text-align: center;
 }
 .qua{
+   font-family: 'Shadows Into Light', cursive;
    text-align: center;
 }
+
+
+
+/*photo.html*/
+
+
