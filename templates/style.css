@@ -45,20 +45,28 @@
    font-family: 'Yellowtail', cursive;    
 }
 .dev{
-   font-family: 'Shadows Into Light', cursive;
+   border-collapse:collapse;
    text-align: center;
 }
 .lug{
-   font-family: 'Shadows Into Light', cursive;
+   border-collapse:collapse;
    text-align: center;
 }
 .qua{
-   font-family: 'Shadows Into Light', cursive;
+   border-collapse:collapse;
    text-align: center;
 }
 
 
 
 /*photo.html*/
+.pho_body{
+   background: rgb(255, 242, 172);
+}
+
+.photo_footer{
+   font-family: 'Shadows Into Light', cursive;
+   text-align: center;
+}
 
 
