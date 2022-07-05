@@ -44,6 +44,15 @@
    font-family: 'Splash', cursive;
    font-family: 'Yellowtail', cursive;    
 }
+.del_container{
+   display: flex;
+   justify-content: space-around;
+}
+.del_item{
+   background: #000;
+   color: rgb(214, 93, 144);;
+   padding: 10px;
+}
 .dev{
    border-collapse:collapse;
    text-align: center;
