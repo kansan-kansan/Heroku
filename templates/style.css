@@ -65,7 +65,10 @@
    border-collapse:collapse;
    text-align: center;
 }
-
+.del_footer{
+   font-family: 'Shadows Into Light', cursive;
+   text-align: center;
+}
 
 
 /*photo.html*/
