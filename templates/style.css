@@ -49,8 +49,9 @@
    justify-content: space-around;
 }
 .del_item{
-   background: rgb(175, 255, 129);
-   color: rgb(218, 157, 65);
+   background: rgb(55, 172, 137);
+   color: rgb(0, 0, 0);
+
    padding: 10px;
 }
 .dev{
