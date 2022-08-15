@@ -16,7 +16,7 @@
 
 
 </head>
-<body class="hello_body">        
+<body class="hello_body">
     <h1 class="header">Welcom to Kansan's Home Page!</h1>
     <hr color="black">
     <img src="./templates/images/back1.jpg" width="200" height="250"><br>
@@ -37,6 +37,18 @@
     <a href="https://twitter.com/a_kansan_kansan"><img src="./templates/images/twitter_logo.png" alt="Twitter" width="60" height="60"></a>
     <hr color="black">
     <footer class="footer">
+        <time id="modify"></time>
+        <script>
+        /* 更新日の取得 */
+        const last = new Date(document.lastModified);
+        const year = last.getFullYear();
+        const month = last.getMonth() + 1;
+        const date = last.getDate();
+        const hour = last.getSeconds();
+        /* 日付を書き換える  */
+        const target = document.getElementById('modify');
+        target.textContent = year + '-' + month + '-' + date+'-' + hour; 
+        </script>
         *2022 Kanzawa
     </footer>
 </body>
