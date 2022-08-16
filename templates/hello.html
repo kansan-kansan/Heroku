@@ -14,7 +14,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <!--<link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">-->
 
-
 </head>
 <body class="hello_body">
     <h1 class="header">Welcom to Kansan's Home Page!</h1>
@@ -39,14 +38,14 @@
     <footer>
         <time id="modify"></time>
         <script>
-        /* 更新日の取得 */
-        const last = new Date(document.lastModified);
-        const year = last.getFullYear();
-        const month = last.getMonth() + 1;
-        const date = last.getDate();
-        /* 日付を書き換える  */
-        const target = document.getElementById('modify');
-        target.textContent = '更新日時'+year + '-' + month + '-' + date; 
+            /* 更新日の取得 */
+            const last = new Date(document.lastModified);
+            const year = last.getFullYear();
+            const month = last.getMonth() + 1;
+            const date = last.getDate();
+            /* 日付を書き換える  */
+            const target = document.getElementById('modify');
+            target.textContent = '更新日時'+year + '-' + month + '-' + date; 
         </script>
         <div class="footer">
         *2022 Kanzawa
