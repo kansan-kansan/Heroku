@@ -77,6 +77,13 @@
 
 
 /*photo.html*/
+.photo_whole{
+   display: grid;
+   gap: 26px;
+   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+   margin-top: 6%;
+   margin-bottom: 50px;
+}
 .pho_body{
    background: rgb(255, 242, 172);
 }
