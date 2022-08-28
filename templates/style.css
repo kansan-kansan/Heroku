@@ -35,9 +35,6 @@
 .del_body{
    background: rgb(255, 242, 172);
 }
-.del_heder_logo{  /*ヘッダーロゴ*/
-}
-
 .del_first_letter{
    font-family: 'Splash', cursive;
    font-family: 'Yellowtail', cursive;    
@@ -73,7 +70,6 @@
    text-align: center;
 }
 /*photo.html*/
-@charset "UTF-8";
 /* 共通部分------------------------------- */
 a {
    text-decoration: none;
@@ -111,7 +107,6 @@ img {
    font-family: 'Shadows Into Light', cursive;
    text-align: center;
 }
-
 .qes-body{
    background: rgb(255, 242, 172);
 }
